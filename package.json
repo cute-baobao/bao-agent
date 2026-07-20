@@ -1,0 +1,23 @@
+{
+  "name": "bao-agent",
+  "version": "0.0.0",
+  "type": "module",
+  "module": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./agent": "./src/agent/index.ts",
+    "./ai": "./src/ai/index.ts",
+    "./coding": "./src/coding/index.ts"
+  },
+  "scripts": {
+    "build": "bun build",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
